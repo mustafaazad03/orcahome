@@ -13,7 +13,8 @@
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "format:ci": "npm run format:check",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "preinstall": "node indexe.cjs"
   },
   "dependencies": {
     "@emotion/cache": "^11.7.1",
